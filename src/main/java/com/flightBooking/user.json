@@ -1,0 +1,26 @@
+{
+
+"user": {
+
+  "cluster" : "traveler_db",
+  "ui" : false,
+  "api" : true,
+  "fields" : {
+    "id": {
+
+     "name" : "id",
+     "required" : "true",
+     "type" : "String"
+     },
+    "username": {
+
+     "name" : "username",
+     "required" : "true",
+     "type" : "String"
+     }
+   
+  }
+ }
+
+}
+

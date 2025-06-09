@@ -1,0 +1,24 @@
+{
+
+"status": {
+
+  "purpose" : "POSSIBLE_VALUE",
+  "values" : {
+    "To do": {
+
+     "id":"To do", 
+      "name":"To do" 
+   },
+    "In progress": {
+
+     "id":"In progress", 
+      "name":"In progress" 
+   },
+    "Done": {
+
+     "id":"Done", 
+      "name":"Done" 
+   }
+}
+}
+}

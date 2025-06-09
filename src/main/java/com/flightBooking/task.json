@@ -1,0 +1,69 @@
+{
+
+"task": {
+
+  "cluster" : "traveler_db",
+  "ui" : false,
+  "api" : true,
+  "fields" : {
+    "id": {
+
+     "name" : "id",
+     "required" : "true",
+     "type" : "String"
+     },
+    "Task": {
+
+     "name" : "Task",
+     "required" : "true",
+     "type" : "String"
+     },
+    "User": {
+
+     "name" : "User",
+     "required" : "true",
+     "foreign" : {
+      "resource" :"User" 
+      },
+     "type" : "String"
+     },
+    "Priority": {
+
+     "name" : "Priority",
+     "required" : "false",
+     "is_enum" : "true",
+      "possible_value" :"Priority", 
+     "type" : "String"
+     },
+    "Status": {
+
+     "name" : "Status",
+     "required" : "false",
+     "is_enum" : "true",
+      "possible_value" :"Status", 
+     "type" : "String"
+     },
+    "Due_Date": {
+
+     "name" : "Due_Date",
+     "required" : "true",
+     "type" : "Date"
+     },
+    "Attachment": {
+
+     "name" : "Attachment",
+     "required" : "false",
+     "type" : "String"
+     },
+    "Comment_Section": {
+
+     "name" : "Comment_Section",
+     "required" : "false",
+     "type" : "String"
+     }
+   
+  }
+ }
+
+}
+

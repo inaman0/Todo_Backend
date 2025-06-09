@@ -1,0 +1,24 @@
+{
+
+"priority": {
+
+  "purpose" : "POSSIBLE_VALUE",
+  "values" : {
+    "Low": {
+
+     "id":"Low", 
+      "name":"Low" 
+   },
+    "Medium": {
+
+     "id":"Medium", 
+      "name":"Medium" 
+   },
+    "High": {
+
+     "id":"High", 
+      "name":"High" 
+   }
+}
+}
+}
